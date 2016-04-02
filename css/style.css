@@ -1,0 +1,139 @@
+section {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	border-bottom: 2px dashed #e5eaeb;
+	padding: 6em;
+	background: #fff;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+
+
+/* 
+-------------------------------------
+Demos
+-------------------------------------
+*/
+
+#demos ul {
+	display: block;
+	width: 100%;
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+#demos li {
+	display: block;
+	width: 50%;
+	font-weight: 400;
+	margin-bottom: 1em;
+	overflow: hidden;
+	padding-top: 1.4em;
+	padding-right: 2em;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	float: left;
+}
+#demos span {
+	display: block;
+	border: 3px solid #ff5e3c;
+	border-radius: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 5em;
+	height: 5em;
+	background: #ff5e3c;
+	color: #000000;
+	font-size: 0.6em;
+	line-height: 1em;
+	font-weight: 700;
+	padding: 1.8em 0 0 0;
+	text-align: center;
+	margin: -1.4em 1em 0 0;
+	text-transform: uppercase;
+	float: left;
+}
+#demos span:hover {
+	background: #fff !important;
+	color: #5d6365;
+	border: 3px solid #5d6365 !important;
+	cursor: pointer;
+}
+
+
+
+/* 
+-------------------------------------
+Tooltips
+-------------------------------------
+*/
+#demos span.tooltipster-icon {
+	cursor: help;
+	margin-left: 4px;
+	background: #0078c9;
+	border: 3px solid #0078c9;
+	width: 2.3em;
+	height: 2.3em;
+	padding: 0.4em 0 0;
+	margin: 2em 0 0 -3em;
+}
+
+.tooltipster-default .tooltipster-content {
+	font-family: 'Open Sans', sans-serif;
+}
+.tooltipster-default .tooltipster-content img {
+	float: left;
+	margin-right: 10px;
+	border: 2px solid #000;
+}
+.tooltipster-default .tooltipster-content p {
+	margin: 0;
+}
+.tooltipster-default .tooltipster-content a {
+	color: #000000;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+.tooltipster-default .tooltipster-content a:hover {
+	color: #fff;
+	border-bottom: 1px solid rgba(255,255,255,1);
+}
+
+.tooltipster-blue {
+	background: #0078c9;
+	color: #fff;
+	border-radius: 5px;
+}
+.tooltipster-blue .tooltipster-content {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+}
+
+.tooltipster-white {
+	background: #fff;
+	color: #0078c9;
+	border-radius: 5px; 
+}
+.tooltipster-white .tooltipster-content {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+}
+
+.tooltipster-pink {
+	background: url(http://calebjacob.com/tooltipster/images/pattern-navy.png);
+	background-color: #ff3c70;
+	color: #fff; 
+	border-radius: 5px;	
+	box-shadow: inset -3px -3px 0 #ff3c70;
+}
+.tooltipster-pink .tooltipster-content {
+	font-family: 'Courier', monospace;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 15px 18px;
+}
